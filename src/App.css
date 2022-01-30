@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'ProductSans-Regular';
+    src: url('fonts/ProductSans-Regular.eot'); /* IE9 Compat Modes */
+    src: url('fonts/ProductSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/ProductSans-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/ProductSans-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+        url('fonts/ProductSans-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('fonts/ProductSans-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProductSans-Bold';
+    src: url('fonts/ProductSans-Bold.eot'); /* IE9 Compat Modes */
+    src: url('fonts/ProductSans-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/ProductSans-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/ProductSans-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+        url('fonts/ProductSans-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('fonts/ProductSans-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #FEF7EB;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  height: 100%;
+  background-color: #FEF7EB;
+  overflow-y: scroll;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 800px;
+  
+}
+
+.header {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 800;
+  font-family: ProductSans-Bold;
+  color: #710A2C
+}
+
+.bio {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+  font-family: ProductSans-Regular;
+  font-size: 17px;
+
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 25px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: ProductSans-Regular;
+  height: 40px;
+  background-color: #710A2C;
+  color: white;
+}
+
+.waveButton:hover {
+  background-color: #710A2C;
+  color: white;
+  font-weight: 600;
+  border: outset;
+}
+
+.connectButton {
+  cursor: pointer;
+  margin-top: 25px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 400;
+  font-family: ProductSans-Regular;
+  height: 40px;
+  width: 500px;
+  align-self: center;
+  background-color: #710A2C;
+  color: white;
+  font-size: 13px;
+}
+
+.connectButton:hover {
+  background-color: #146665;
+  color: white;
+  font-weight: 600;
+  border: outset;
+}
+
+.song {
+  text-align: center;
+  color:black;
+  margin-top: 25px;
+  font-family: ProductSans-Regular;
+  font-size: 22px;
+  height: 50px;
+  width: 700px;
+  align-self: center;
+}
+
+.index {
+  background-color: #710A2C;
+  margin-top: 20px;
+  padding: 12px;
+  border: 0;
+  border-radius: 5px;
+  align-self: center;
+  font-weight: 400;
+  font-family: ProductSans-Regular;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  width: 500px;
+}
+
+.index:hover {
+  background-color: #146665;
+  cursor: auto;
+
+}
+
+.bold {
+  font-weight: bold;
+}
