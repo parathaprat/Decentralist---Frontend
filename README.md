@@ -9,4 +9,16 @@ Steps to contribute to the playlist- <br />
 2) Use the testnet faucet available on https://mycrypto.com/ to get $ETH for gas <br />
 3) Go to https://decentralist.parathaprat.repl.co <br />
 4) Click on connect wallet, and connect your wallet to the dapp <br />
-5) Enter desired song into the given textbox, confirm transaction and you are done!
+5) Enter desired song into the given textbox, confirm transaction and you are done! <br />
+
+## Dapp-
+
+<img width="1440" alt="start" src="https://user-images.githubusercontent.com/84290855/152475197-ef08fcaf-aedf-4f0a-9ac9-9cbd008c2219.png">
+
+## Metamask confirmation to add a song-
+
+<img width="1440" alt="metamask" src="https://user-images.githubusercontent.com/84290855/152475317-5052dfed-d6be-4d28-957b-3074e9fb2685.png">
+
+## Added Songs-
+
+<img width="1440" alt="playlist" src="https://user-images.githubusercontent.com/84290855/152475360-832b1ef0-9381-4275-9e0a-7f2a8871f36a.png">
